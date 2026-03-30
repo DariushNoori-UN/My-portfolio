@@ -6,7 +6,8 @@ Welcome to my personal portfolio project. This repository contains a small stati
 
 - `index.html` – Main landing page
 - `about.html` – About me and experience
-- `style.css` – Shared styling for both pages
+- `projects.html` – Projects showcase
+- `Styles/` – CSS styling files
 - `Images/` – Asset folder (logo and profile pictures)
 
 ## 🚀 Features
@@ -16,9 +17,8 @@ Welcome to my personal portfolio project. This repository contains a small stati
 - Social links (GitHub, LinkedIn, Facebook, Instagram)
 - Easy to extend with new sections or projects
 
-
 ## 📬 Contact
 
 - Email:
 - LinkedIn: https://www.linkedin.com/in/dariush-noori
-- URL:  https://dariushnoori-un.github.io/My-portfolio/
+- URL: https://dariushnoori-un.github.io/My-portfolio/
