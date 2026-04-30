@@ -185,7 +185,7 @@ nav .container {
 
 .hero h1 {
   font-family: var(--font-head);
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(2.8rem, 7vw, 4.5rem);
   line-height: 1.05;
   letter-spacing: -.03em;
   margin-bottom: 1.5rem;
@@ -335,7 +335,7 @@ nav .container {
     border: none;
     background-color: var(--primary-color);
     cursor: pointer;
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
    
 
     &:hover{

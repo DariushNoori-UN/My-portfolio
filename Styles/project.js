@@ -8,7 +8,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Python", "linux", "Raspberry Pi"],
-    image: "", // e.g. "images/portfolio.png"
+    image: "images/IOT.jpeg", // e.g. "images/portfolio.png"
     description:
       "A Group project where we built an AI-powered human detection system using a Raspberry Pi and a camera module. The system uses a pre-trained model to identify humans in the camera feed and sends alerts when motion is detected.",
     learned: [
@@ -16,10 +16,9 @@ const projects = [
       "The importance of spacing, typography, and visual hierarchy in UI design.",
       "How to make design decisions that balance personality with professionalism.",
     ],
-    skills: ["HTML & CSS", "Responsive layout", "Visual design", "Typography", "JavaScript DOM manipulation"],
+    skills: ["Python", "Reasbiry py", "linux"],
     links: [
-      { label: "GitHub", href: "#" },
-      { label: "Live Site", href: "#", filled: true },
+      { label: "youtube", href: "https://www.youtube.com/watch?v=sCQOcbkoUTs" }
     ],
   },
   {
@@ -30,7 +29,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Bootstrap", "JavaScript", "Advanced CSS"],
-    image: null,
+    image: "images/spa.png",
     description:
       "A website where we created a booking platform for a fictional spa. The site features a clean, calming design with interactive elements like a booking form, service descriptions, and a gallery. We focused on creating an intuitive user experience while showcasing the spa's offerings.",
     learned: [
@@ -39,7 +38,7 @@ const projects = [
       "How to use JavaScript to enhance user interactions, like form validation and dynamic content loading.",
     ],
     skills: ["Javscript", "API","Async/Await", "JSON handling", "Bootstrap"],
-    links: [{ label: "GitHub", href: "#" }],
+    links: [{ label: "Website", href: "https://bestwellnesscenter.netlify.app/" }],
   },
   {
     id: 3,
@@ -48,8 +47,8 @@ const projects = [
     subtitle: "Web Development",
     shortDesc: null,
     status: "done",
-    tags: ["JavaScript", "API", "UI/UX"],
-    image: null,
+    tags: ["Frontend", "Backend", "UI/UX"],
+    image: "images/SoobhNEws.png",
     description:
       "A Comprehensive Tall-stack project where I build a News website with Laravel from Scratch unlocking the full potentional of mine in development",
     learned: [
@@ -58,67 +57,66 @@ const projects = [
       "How to implement the crud logic",
     ],
     skills: ["Php", "Laravel/Livewire", "Tailwindcss", "Alpine.js", "MySQL"],
-    links: [{ label: "GitHub", href: "#" }],
+    links: [{ label: "GitHub", href: "https://soobh-news.be/" }],
   },
   {
     id: 4,
     number: "04",
-    title: "Anderson's Webpage",
-    subtitle: "UML Diagrams",
-    shortDesc: "created a complex software design system for a client",
+    title: "Olympic Games",
+    subtitle: "Data Visualization",
+    shortDesc: "Created a data visualization dashboard using qlick sense",
     status: "done",
-    tags: ["Figma", "UML Diagram", "Communication","Software Design"],
-    image: null,
+    tags: ["Qlick sense", "Story telling", "Anaylsis"],
+    image: "Images/qlickSense.png",
     description:
-      "As a film photography hobbyist, I wanted a minimal way to keep track of the rolls I shoot. This app lets me log each roll, add shot notes, and review past rolls. It uses browser localStorage so there's no backend needed.",
+      "A data visualization project where I created an interactive dashboard using Qlik Sense to explore Olympic Games data. The dashboard includes various charts and filters that allow users to analyze trends in medal counts, athlete performance, and country participation over time.",
     learned: [
-      "How to use localStorage to persist data without a server.",
-      "How to build forms that feel lightweight and fast.",
-      "How designing for a personal need makes you a better product thinker.",
+      "How to use Qlik Sense to create interactive data visualizations and dashboards.",
+      "How to analyze and interpret complex datasets to extract meaningful insights.",
+      "How to tell a compelling story with data by choosing the right visualizations and layout.",
     ],
-    skills: ["HTML", "CSS", "JavaScript", "LocalStorage", "Form design"],
+    skills: ["Qlick sense", "Story telling", "Anaylsis"],
     links: [
-      { label: "GitHub", href: "#" },
-      { label: "Live Demo", href: "#", filled: true },
+
     ],
   },
   {
     id: 5,
     number: "05",
-    title: "Java OOP Exercises",
-    subtitle: "Learning project",
-    shortDesc: "A collection of object-oriented programming exercises in Java, covering inheritance, interfaces, and design patterns.",
+    title: "Anderson's",
+    subtitle: "Skills Integration 2",
+    shortDesc: null,
     status: "done",
-    tags: ["Java", "OOP", "Data Structures"],
-    image: null,
+    tags: ["Figma", "UML Diagram", "Group project","Software Design"],
+    image: "images/anderson.png",
     description:
-      "A personal project repository I maintain as part of my Java learning journey at Thomas More. Includes classic OOP exercises, small simulations (like a bank account system), and experiments with data structures like linked lists and queues.",
+      "We in a group have desingned a complex readl world software uml design for a client. which we made a prototype to tackle the changeing requirements of the client.",
     learned: [
-      "How object-oriented design helps manage complexity in larger programs.",
-      "The difference between interfaces and abstract classes — and when to use each.",
-      "How to write clean, readable Java code with proper encapsulation.",
+      "How to work with a team to design a software system that meets client requirements.",
+      "How to use UML diagrams to communicate software architecture and design decisions.",
+      "How to use Figma to create interactive prototypes that can be used for client feedback and iteration.",
     ],
-    skills: ["Java", "OOP", "Inheritance", "Interfaces", "Data structures"],
-    links: [{ label: "GitHub", href: "#" }],
+    skills: ["Figma", "Team leader", "communication", "Database Desing", "Team  integration"],
+    links: [],
   },
   {
     id: 6,
     number: "06",
-    title: "Linux Dotfiles",
-    subtitle: "System configuration",
-    shortDesc: "My personal Linux configuration files — shell aliases, bash scripts, and terminal setup to make the CLI feel like home.",
+    title: "Grow kasterlee",
+    subtitle: "Skills Integration 2",
+    shortDesc: null,
     status: "wip",
-    tags: ["Linux", "Bash", "Git"],
-    image: null,
+    tags: ["Laravel/livewire", "Tailwindcs", "Group project", "Tall-stack"],
+    image: "images/Kasterlee.png",
     description:
-      "A repo where I track my evolving Linux environment setup. Includes shell aliases that save me keystrokes every day, a custom prompt, and bash scripts for repetitive tasks. It's a living project that grows as I get more comfortable on the command line.",
+      "A fully functional website for the client that tackles the challenges of the client who was looking for gym management system with a booking system and a payment system. we used laravel livewire to create a dynamic website that can handle the clients needs.",
     learned: [
-      "How to write Bash scripts that are actually useful day-to-day.",
-      "How version-controlling config files makes switching machines painless.",
-      "How spending time on your tools pays back every time you use them.",
+      "How to tackle a real world project with a team and how to handle the clients needs and requirements.",
+      "How full functional website with complex real world requirements.",
+      "How to use laravel livewire to create a dynamic website that can handle the clients needs.",
     ],
-    skills: ["Linux CLI", "Bash scripting", "Git", "Shell customization", "Automation"],
-    links: [{ label: "GitHub", href: "#" }],
+    skills: ["Figma", "Team leader", "communication", "Database Desing", "Team  integration"],
+    links: [{ label: "Link", href: "https://www.growkasterlee.liam-tm.be/" }],
   },
 ];
 

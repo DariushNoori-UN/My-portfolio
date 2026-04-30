@@ -84,6 +84,7 @@
 }
 
 .card-image {
+  display: none;
   width: 100%;
   aspect-ratio: 16 / 10;
   overflow: hidden;
@@ -257,8 +258,8 @@
   height: 2.25rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
-  color: var(--muted);
+  background: #798645;
+  color: var(--white);
   font-size: 1rem;
   cursor: pointer;
   transition: border-color .2s ease, color .2s ease, transform .2s ease;
@@ -267,7 +268,6 @@
 
 .modal-close:hover {
   border-color: var(--accent);
-  color: var(--accent);
   transform: translateY(-1px);
 }
 
