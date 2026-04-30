@@ -8,7 +8,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Python", "linux", "Raspberry Pi"],
-    image: "images/IOT.jpeg", // e.g. "images/portfolio.png"
+    image: "Images/IOT.jpeg", // e.g. "Images/portfolio.png"
     description:
       "A Group project where we built an AI-powered human detection system using a Raspberry Pi and a camera module. The system uses a pre-trained model to identify humans in the camera feed and sends alerts when motion is detected.",
     learned: [
@@ -29,7 +29,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Bootstrap", "JavaScript", "Advanced CSS"],
-    image: "images/spa.png",
+    image: "Images/spa.png",
     description:
       "A website where we created a booking platform for a fictional spa. The site features a clean, calming design with interactive elements like a booking form, service descriptions, and a gallery. We focused on creating an intuitive user experience while showcasing the spa's offerings.",
     learned: [
@@ -48,7 +48,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Frontend", "Backend", "UI/UX"],
-    image: "images/SoobhNEws.png",
+    image: "Images/SoobhNews.png",
     description:
       "A Comprehensive Tall-stack project where I build a News website with Laravel from Scratch unlocking the full potentional of mine in development",
     learned: [
@@ -88,7 +88,7 @@ const projects = [
     shortDesc: null,
     status: "done",
     tags: ["Figma", "UML Diagram", "Group project","Software Design"],
-    image: "images/anderson.png",
+    image: "Images/anderson.png",
     description:
       "We in a group have desingned a complex readl world software uml design for a client. which we made a prototype to tackle the changeing requirements of the client.",
     learned: [
@@ -107,7 +107,7 @@ const projects = [
     shortDesc: null,
     status: "wip",
     tags: ["Laravel/livewire", "Tailwindcs", "Group project", "Tall-stack"],
-    image: "images/Kasterlee.png",
+    image: "Images/Kasterlee.png",
     description:
       "A fully functional website for the client that tackles the challenges of the client who was looking for gym management system with a booking system and a payment system. we used laravel livewire to create a dynamic website that can handle the clients needs.",
     learned: [
