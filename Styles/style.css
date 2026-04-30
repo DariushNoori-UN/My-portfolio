@@ -1,30 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
-
-:root {
-  --bg:        #f9fbf7; 
-
-  --secondary: #f9fbf7;
-  --surface:   #ffffff; 
-  --border:    #e2e8da; 
-  
-  --text:      #1a1f16; 
-  --muted:     #606c5a; 
-  
-  --accent:    #798645; 
-  --accent-dark: #2d4a22; 
-  --accent2:   #e6d993; 
-
-  --white:     #ffffff;
-
-  --radius:    6px;
-  --nav-h:     72px;
-
-  --font-head: 'DM Serif Display', Georgia, serif;
-  --font-body: 'DM Sans', system-ui, sans-serif;
-
-  --max-w: 1080px;
-  --gap:   clamp(1.5rem, 4vw, 3rem);
-}
 
 /* --- Reset --- */
 *, *::before, *::after { 
@@ -158,7 +131,7 @@ nav .container {
   display: grid;
   place-items: center;
   padding-block: var(--gap);
-  position: relative;
+  position: relative; 
   overflow: hidden;
 }
 

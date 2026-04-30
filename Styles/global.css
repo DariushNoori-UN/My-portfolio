@@ -1,0 +1,25 @@
+:root {
+  --bg:        #f9fbf7; 
+
+  --secondary: #f9fbf7;
+  --surface:   #ffffff; 
+  --border:    #e2e8da; 
+  
+  --text:      #1a1f16; 
+  --muted:     #606c5a; 
+  
+  --accent:    #798645; 
+  --accent-dark: #2d4a22; 
+  --accent2:   #e6d993; 
+
+  --white:     #ffffff;
+
+  --radius:    6px;
+  --nav-h:     72px;
+
+  --font-head: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --max-w: 1080px;
+  --gap:   clamp(1.5rem, 4vw, 3rem);
+}

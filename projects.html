@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dariush Noori - Projects</title>
+  <link rel="stylesheet" href="Styles/main.css" />
+  <link rel="stylesheet" href="Styles/project.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div>
+      <img class="nav-logo" src="Images/logo.avif" alt="" />
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="page">
+  <section class="projects-hero">
+    <div class="container">
+      <div class="projects-hero-copy">
+        <p class="section-label">Projects</p>
+        <h1>Things I've built,<br /><em>learned, and refined.</em></h1>
+        <p class="projects-hero-desc">
+          A collection of projects I've worked on, from finished builds to ideas
+          still evolving. Each one helped me understand software, design, and
+          problem-solving a little better.
+        </p>
+
+        <div class="projects-hero-tags">
+          <span class="tag">Student projects</span>
+          <span class="tag">Personal experiments</span>
+          <span class="tag">Ongoing ideas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects-section">
+    <div class="container">
+      <div class="projects-intro">
+        <h2>What you'll find here</h2>
+        <p>
+          These cards show what I built, what tools I used, and what each
+          project taught me. Open any project to see the full context.
+        </p>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal-content">
+    <button class="modal-close" id="modal-close" aria-label="Close">&#x2715;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <p>
+    Designed &amp; built by <a href="about.html">Dariush Noori</a> - 2026
+  </p>
+  <p class="footer-social">
+    <a href="https://github.com/DariushNoori-UN" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/dariush-noori" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+  </p>
+</footer>
+
+<script src="Styles/project.js"></script>
+</body>
+</html>
